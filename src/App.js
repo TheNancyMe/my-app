@@ -4,8 +4,11 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import Profile from './components/Profile';
 import Dialogs from './components/Dialogs/Dialogs';
-
+import News from './components/News/News';
+import Settings from './Settings/Settings';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+
+
 
 const App = () => {
   return(
@@ -17,6 +20,8 @@ const App = () => {
                   <Routes>
                     <Route path="/dialogs" element={<Dialogs />}/>
                     <Route path="/profile" element={<Profile />}/>
+                    <Route path="/news" element={<News />}/>
+                    <Route path="/settings" element={<Settings />}/>
                   </Routes>
               </BrowserRouter>
           </div>
