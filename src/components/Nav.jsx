@@ -12,7 +12,7 @@ const Nav = () => {
   return (
      <nav className= {s.nav}>
     <div className = {s.item}>
-      <NavLink to= '/profile'>Profile</NavLink>
+      <a href = '/profile'>Profile</a>
     </div>
     <div className = {s.item}>
       <a href = '/dialogs'>Messages</a>
