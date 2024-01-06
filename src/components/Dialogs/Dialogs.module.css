@@ -5,10 +5,15 @@
 
 .dialogsItems {
     padding: 10px;
+    color: ;
 }
 
 
 .messages {
     padding: 10px;
+}
+
+.messages .message {
+    color: rebeccapurple;
 }
 
