@@ -4,13 +4,7 @@ import Post from './Post/Post'
 
 const MyPosts = (props) => {
 
-  let posts = [
-    {id: 1, post: "Hi, how are you?"}, 
-    {id: 2, post: "Its my first post"},
-    
-]
-
-let postsElements = posts.map (post => <Post message ={post.post}/> )
+let postsElements = props.posts.map (post => <Post message ={post.post}/> )
 
 
     return (
